@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  TimerLabel
+//  TimerDemo
 //
-//  Created by zhangchao on 15/1/25.
+//  Created by zhangchao on 15/1/17.
 //  Copyright (c) 2015年 zhangchao. All rights reserved.
 //
 
@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)startButtonClick:(UIButton *)sender {
+    [_timerLabel startTimer];
+}
+
+- (IBAction)pauseButtonClick:(UIButton *)sender {
+    [_timerLabel pauseTimer];
+}
+
+- (IBAction)resetButtonClick:(UIButton *)sender {
+    [_timerLabel resetTimer];
+}
 @end
