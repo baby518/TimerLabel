@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rG3-AW-hwG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Rbd-oc-Xv2">
+            <objects>
+                <viewController id="rG3-AW-hwG" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZKJ-U8-ED4"/>
+                        <viewControllerLayoutGuide type="bottom" id="jfc-au-6Zj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CZ9-ZT-U4T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqp-WV-JFO" customClass="TimerLabel">
+                                <rect key="frame" x="51" y="169" width="218" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Py-J9-3Dw">
+                                <rect key="frame" x="100" y="279" width="112" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H3K-ey-Dkp"/>
+                                    <constraint firstAttribute="width" constant="112" id="Pd9-Eo-YIb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="H3K-ey-Dkp"/>
+                                        <exclude reference="Pd9-Eo-YIb"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="H3K-ey-Dkp"/>
+                                        <include reference="Pd9-Eo-YIb"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="startButtonClick:" destination="rG3-AW-hwG" eventType="touchUpInside" id="w3z-NG-6lw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMY-yR-5e5">
+                                <rect key="frame" x="100" y="323" width="112" height="34"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="iSd-Hy-c3T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iSd-Hy-c3T"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="iSd-Hy-c3T"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="pauseButtonClick:" destination="rG3-AW-hwG" eventType="touchUpInside" id="g7g-Ss-1bR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPu-04-1Dv">
+                                <rect key="frame" x="100" y="365" width="112" height="34"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="BfU-lJ-cqT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BfU-lJ-cqT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="BfU-lJ-cqT"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="resetButtonClick:" destination="rG3-AW-hwG" eventType="touchUpInside" id="YzA-y4-THC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bqp-WV-JFO" firstAttribute="top" secondItem="ZKJ-U8-ED4" secondAttribute="bottom" constant="165" id="0yI-pc-LmS"/>
+                            <constraint firstItem="eMY-yR-5e5" firstAttribute="trailing" secondItem="0Py-J9-3Dw" secondAttribute="trailing" id="6k7-w2-TNM"/>
+                            <constraint firstItem="bqp-WV-JFO" firstAttribute="leading" secondItem="CZ9-ZT-U4T" secondAttribute="leadingMargin" constant="71" id="LwN-y1-uVB"/>
+                            <constraint firstItem="0Py-J9-3Dw" firstAttribute="leading" secondItem="eMY-yR-5e5" secondAttribute="leading" id="Oh2-Gs-YTa"/>
+                            <constraint firstItem="bqp-WV-JFO" firstAttribute="centerX" secondItem="CZ9-ZT-U4T" secondAttribute="centerX" id="Syq-Ci-dRm"/>
+                            <constraint firstItem="0Py-J9-3Dw" firstAttribute="top" secondItem="bqp-WV-JFO" secondAttribute="bottom" constant="62" id="dhm-hZ-LxA"/>
+                            <constraint firstItem="0Py-J9-3Dw" firstAttribute="leading" secondItem="CZ9-ZT-U4T" secondAttribute="leading" constant="140" id="g14-KY-b6d"/>
+                            <constraint firstItem="eMY-yR-5e5" firstAttribute="top" secondItem="0Py-J9-3Dw" secondAttribute="bottom" constant="14" id="gri-re-0Nm"/>
+                            <constraint firstItem="eMY-yR-5e5" firstAttribute="trailing" secondItem="VPu-04-1Dv" secondAttribute="trailing" id="hkX-lW-TCE"/>
+                            <constraint firstItem="VPu-04-1Dv" firstAttribute="leading" secondItem="eMY-yR-5e5" secondAttribute="leading" id="k3R-Fd-Xrb"/>
+                            <constraint firstItem="VPu-04-1Dv" firstAttribute="top" secondItem="eMY-yR-5e5" secondAttribute="bottom" constant="8" symbolic="YES" id="lie-lI-hyA"/>
+                            <constraint firstItem="jfc-au-6Zj" firstAttribute="top" secondItem="VPu-04-1Dv" secondAttribute="bottom" constant="185" id="nAp-d0-lhV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0yI-pc-LmS"/>
+                                <exclude reference="LwN-y1-uVB"/>
+                                <exclude reference="Syq-Ci-dRm"/>
+                                <exclude reference="Oh2-Gs-YTa"/>
+                                <exclude reference="dhm-hZ-LxA"/>
+                                <exclude reference="g14-KY-b6d"/>
+                                <exclude reference="6k7-w2-TNM"/>
+                                <exclude reference="gri-re-0Nm"/>
+                                <exclude reference="hkX-lW-TCE"/>
+                                <exclude reference="k3R-Fd-Xrb"/>
+                                <exclude reference="lie-lI-hyA"/>
+                                <exclude reference="nAp-d0-lhV"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="0yI-pc-LmS"/>
+                                <include reference="LwN-y1-uVB"/>
+                                <include reference="Syq-Ci-dRm"/>
+                                <include reference="Oh2-Gs-YTa"/>
+                                <include reference="dhm-hZ-LxA"/>
+                                <include reference="g14-KY-b6d"/>
+                                <include reference="6k7-w2-TNM"/>
+                                <include reference="gri-re-0Nm"/>
+                                <include reference="hkX-lW-TCE"/>
+                                <include reference="k3R-Fd-Xrb"/>
+                                <include reference="lie-lI-hyA"/>
+                                <include reference="nAp-d0-lhV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pauseButton" destination="eMY-yR-5e5" id="UVF-LJ-EUL"/>
+                        <outlet property="resetButton" destination="VPu-04-1Dv" id="jyQ-g3-vB3"/>
+                        <outlet property="startButton" destination="0Py-J9-3Dw" id="YAb-F7-tvw"/>
+                        <outlet property="timerLabel" destination="bqp-WV-JFO" id="m4Y-GK-yQX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBr-PQ-tJ5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>

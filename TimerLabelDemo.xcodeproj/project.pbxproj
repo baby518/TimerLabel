@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4D791A51A75265400EAE720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D791A41A75265400EAE720 /* main.m */; };
-		D4D791A81A75265400EAE720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D791A71A75265400EAE720 /* AppDelegate.m */; };
-		D4D791AB1A75265400EAE720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D791AA1A75265400EAE720 /* ViewController.m */; };
-		D4D791AE1A75265400EAE720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D791AC1A75265400EAE720 /* Main.storyboard */; };
-		D4D791B01A75265400EAE720 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D791AF1A75265400EAE720 /* Images.xcassets */; };
-		D4D791B31A75265400EAE720 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D791B11A75265400EAE720 /* LaunchScreen.xib */; };
-		D4D791CB1A75269800EAE720 /* TimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D791CA1A75269800EAE720 /* TimerLabel.m */; };
+		D464FD6A1BE3A4F6000E18CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FD691BE3A4F6000E18CE /* AppDelegate.m */; };
+		D464FD6D1BE3A506000E18CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D464FD6B1BE3A505000E18CE /* Info.plist */; };
+		D464FD6E1BE3A506000E18CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FD6C1BE3A506000E18CE /* main.m */; };
+		D464FD711BE3A510000E18CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FD701BE3A510000E18CE /* ViewController.m */; };
+		D464FD731BE3A51D000E18CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D464FD721BE3A51D000E18CE /* Images.xcassets */; };
+		D464FD841BE3A58F000E18CE /* TimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FD831BE3A58F000E18CE /* TimerLabel.m */; };
+		D464FDAC1BE3A719000E18CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D464FDA81BE3A719000E18CE /* LaunchScreen.xib */; };
+		D464FDB01BE3A73C000E18CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D464FDAE1BE3A73C000E18CE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4D7919F1A75265400EAE720 /* TimerLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4D791A31A75265400EAE720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4D791A41A75265400EAE720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4D791A61A75265400EAE720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D4D791A71A75265400EAE720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4D791A91A75265400EAE720 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4D791AA1A75265400EAE720 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D4D791AD1A75265400EAE720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D4D791AF1A75265400EAE720 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D4D791B21A75265400EAE720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D4D791C91A75269800EAE720 /* TimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerLabel.h; sourceTree = "<group>"; };
-		D4D791CA1A75269800EAE720 /* TimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerLabel.m; sourceTree = "<group>"; };
+		D464FD681BE3A4EC000E18CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TimerLabelDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D464FD691BE3A4F6000E18CE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TimerLabelDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D464FD6B1BE3A505000E18CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TimerLabelDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		D464FD6C1BE3A506000E18CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TimerLabelDemo/main.m; sourceTree = SOURCE_ROOT; };
+		D464FD6F1BE3A510000E18CE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TimerLabelDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		D464FD701BE3A510000E18CE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TimerLabelDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		D464FD721BE3A51D000E18CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TimerLabelDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		D464FD821BE3A58F000E18CE /* TimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerLabel.h; sourceTree = "<group>"; };
+		D464FD831BE3A58F000E18CE /* TimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerLabel.m; sourceTree = "<group>"; };
+		D464FDA91BE3A719000E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = TimerLabelDemo/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		D464FDAF1BE3A73C000E18CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TimerLabelDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		D4D7919F1A75265400EAE720 /* TimerLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,10 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D464FD811BE3A58F000E18CE /* TimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D464FD821BE3A58F000E18CE /* TimerLabel.h */,
+				D464FD831BE3A58F000E18CE /* TimerLabel.m */,
+			);
+			path = TimerLabel;
+			sourceTree = "<group>";
+		};
 		D4D791961A75265400EAE720 = {
 			isa = PBXGroup;
 			children = (
-				D4D791A11A75265400EAE720 /* TimerLabel */,
+				D464FD811BE3A58F000E18CE /* TimerLabel */,
+				D4D791A11A75265400EAE720 /* TimerLabelDemo */,
 				D4D791A01A75265400EAE720 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,51 +64,42 @@
 		D4D791A01A75265400EAE720 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4D7919F1A75265400EAE720 /* TimerLabel.app */,
+				D4D7919F1A75265400EAE720 /* TimerLabelDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4D791A11A75265400EAE720 /* TimerLabel */ = {
+		D4D791A11A75265400EAE720 /* TimerLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D4D791C81A75269800EAE720 /* ui */,
-				D4D791A61A75265400EAE720 /* AppDelegate.h */,
-				D4D791A71A75265400EAE720 /* AppDelegate.m */,
-				D4D791A91A75265400EAE720 /* ViewController.h */,
-				D4D791AA1A75265400EAE720 /* ViewController.m */,
-				D4D791AC1A75265400EAE720 /* Main.storyboard */,
-				D4D791AF1A75265400EAE720 /* Images.xcassets */,
-				D4D791B11A75265400EAE720 /* LaunchScreen.xib */,
+				D464FDA81BE3A719000E18CE /* LaunchScreen.xib */,
+				D464FDAE1BE3A73C000E18CE /* Main.storyboard */,
+				D464FD681BE3A4EC000E18CE /* AppDelegate.h */,
+				D464FD691BE3A4F6000E18CE /* AppDelegate.m */,
+				D464FD6F1BE3A510000E18CE /* ViewController.h */,
+				D464FD701BE3A510000E18CE /* ViewController.m */,
+				D464FD721BE3A51D000E18CE /* Images.xcassets */,
 				D4D791A21A75265400EAE720 /* Supporting Files */,
+				D464FD6B1BE3A505000E18CE /* Info.plist */,
+				D464FD6C1BE3A506000E18CE /* main.m */,
 			);
+			name = TimerLabelDemo;
 			path = TimerLabel;
 			sourceTree = "<group>";
 		};
 		D4D791A21A75265400EAE720 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D4D791A31A75265400EAE720 /* Info.plist */,
-				D4D791A41A75265400EAE720 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D4D791C81A75269800EAE720 /* ui */ = {
-			isa = PBXGroup;
-			children = (
-				D4D791C91A75269800EAE720 /* TimerLabel.h */,
-				D4D791CA1A75269800EAE720 /* TimerLabel.m */,
-			);
-			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4D7919E1A75265400EAE720 /* TimerLabel */ = {
+		D4D7919E1A75265400EAE720 /* TimerLabelDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4D791C21A75265400EAE720 /* Build configuration list for PBXNativeTarget "TimerLabel" */;
+			buildConfigurationList = D4D791C21A75265400EAE720 /* Build configuration list for PBXNativeTarget "TimerLabelDemo" */;
 			buildPhases = (
 				D4D7919B1A75265400EAE720 /* Sources */,
 				D4D7919C1A75265400EAE720 /* Frameworks */,
@@ -107,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = TimerLabel;
+			name = TimerLabelDemo;
 			productName = TimerLabel;
-			productReference = D4D7919F1A75265400EAE720 /* TimerLabel.app */;
+			productReference = D4D7919F1A75265400EAE720 /* TimerLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4D7919A1A75265400EAE720 /* Build configuration list for PBXProject "TimerLabel" */;
+			buildConfigurationList = D4D7919A1A75265400EAE720 /* Build configuration list for PBXProject "TimerLabelDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4D7919E1A75265400EAE720 /* TimerLabel */,
+				D4D7919E1A75265400EAE720 /* TimerLabelDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -149,9 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D791AE1A75265400EAE720 /* Main.storyboard in Resources */,
-				D4D791B31A75265400EAE720 /* LaunchScreen.xib in Resources */,
-				D4D791B01A75265400EAE720 /* Images.xcassets in Resources */,
+				D464FD6D1BE3A506000E18CE /* Info.plist in Resources */,
+				D464FDAC1BE3A719000E18CE /* LaunchScreen.xib in Resources */,
+				D464FD731BE3A51D000E18CE /* Images.xcassets in Resources */,
+				D464FDB01BE3A73C000E18CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,30 +165,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D791CB1A75269800EAE720 /* TimerLabel.m in Sources */,
-				D4D791AB1A75265400EAE720 /* ViewController.m in Sources */,
-				D4D791A81A75265400EAE720 /* AppDelegate.m in Sources */,
-				D4D791A51A75265400EAE720 /* main.m in Sources */,
+				D464FD841BE3A58F000E18CE /* TimerLabel.m in Sources */,
+				D464FD6E1BE3A506000E18CE /* main.m in Sources */,
+				D464FD6A1BE3A4F6000E18CE /* AppDelegate.m in Sources */,
+				D464FD711BE3A510000E18CE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4D791AC1A75265400EAE720 /* Main.storyboard */ = {
+		D464FDA81BE3A719000E18CE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D4D791AD1A75265400EAE720 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D4D791B11A75265400EAE720 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4D791B21A75265400EAE720 /* Base */,
+				D464FDA91BE3A719000E18CE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D464FDAE1BE3A73C000E18CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D464FDAF1BE3A73C000E18CE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -271,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TimerLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TimerLabelDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TimerLabelDemo;
 			};
 			name = Debug;
 		};
@@ -281,16 +284,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TimerLabel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TimerLabelDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TimerLabelDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4D7919A1A75265400EAE720 /* Build configuration list for PBXProject "TimerLabel" */ = {
+		D4D7919A1A75265400EAE720 /* Build configuration list for PBXProject "TimerLabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4D791C01A75265400EAE720 /* Debug */,
@@ -299,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4D791C21A75265400EAE720 /* Build configuration list for PBXNativeTarget "TimerLabel" */ = {
+		D4D791C21A75265400EAE720 /* Build configuration list for PBXNativeTarget "TimerLabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4D791C31A75265400EAE720 /* Debug */,
 				D4D791C41A75265400EAE720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
