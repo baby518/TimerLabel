@@ -8,8 +8,6 @@
 
 @interface TimerLabel : UILabel
 
-@property (nonatomic, strong, readonly) NSTimer *mTimer;
-@property (nonatomic, strong, readonly) NSDate *mStartedDate;
 @property (nonatomic, assign, readonly) NSTimeInterval curTimeInterval;
 @property (nonatomic, assign, readonly) NSTimeInterval lastTimeInterval;
 @property (nonatomic, assign, readonly) bool isInitialized;

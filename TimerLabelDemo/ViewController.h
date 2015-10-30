@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TimerLabel.h"
+// use objective-c
+//#import "TimerLabel.h"
+// use swift
+#import "TimerLabelDemo-Swift.h"
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet TimerLabel *timerLabel;

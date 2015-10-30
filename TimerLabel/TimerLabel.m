@@ -5,6 +5,11 @@
 
 #import "TimerLabel.h"
 
+@interface TimerLabel ()
+@property (nonatomic, strong, readonly) NSTimer *mTimer;
+@property (nonatomic, strong, readonly) NSDate *mStartedDate;
+@end
+
 @implementation TimerLabel {
 
 }
